@@ -1,9 +1,11 @@
-import react from 'React'
+import React from 'react'
 
-export deafult HomePageCard extends React.Fragment {
-    render {
-        return (
-
+class HomePageCard extends React.Component {
+    render () {
+        return(
+            <h1>HomePageCard component rendering</h1>
         )
     }
 }
+
+export default HomePageCard
